@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuel Economy Finder</title>
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="display-options">
+        <div id="options">
+            <button id="vRecord-btn" onclick="getVRecord()">Vehicle Record</button>
+            <button id="vEmissions-btn" onclick="getVEmission()">Vehicle Emissions</button>
+            <button id="fuelPrice-btn" onclick="getFuelPrices()">Fuel Prices</button>
+            <button id="mpgRecord-btn" onclick="getMpgRecord()">MPG Record</button>
+        </div>
+    </div>
+    <div id="display-result">
+        <p id="choose-option">Please choose an option</p>
+        <table id="result-table" style="display: none;">
+        </table>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

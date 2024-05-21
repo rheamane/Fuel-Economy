@@ -1,0 +1,103 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+    margin: 1% 3%;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: hsl(52, 51%, 91%);
+}
+#display-options{
+    width: 50%;
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 25px;
+    background-color: hsl(40, 26%, 42%);
+}
+#options{
+    display: flex;
+    gap: 2%;
+}
+#display-result{
+    width: 50%;
+    flex: 1;
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    border: 2px solid black;
+    background-color: hsl(40, 26%, 42%);
+}
+#result-table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    font-size: x-large;
+    background-color: hsl(40, 26%, 55%);
+}
+tr {
+    display: flex;
+}
+th, td {
+    border: 1px solid black;
+    flex: 1;
+}
+#choose-option{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+button{
+    height: 100px;
+    border-radius: 20px;
+    border: none;
+    padding: 0 20px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+#vRecord-btn{
+    background-color: hsl(11, 84%, 34%);
+    color: white;
+}
+#vRecord-btn:hover{
+    background-color: hsl(11, 66%, 45%);
+}
+#vRecord-btn:active{
+    background-color: hsl(11, 76%, 59%);
+}
+#vEmissions-btn{
+    background-color: hsl(231, 68%, 36%);
+    color: white;
+}
+#vEmissions-btn:hover{
+    background-color: hsl(243, 50%, 50%);
+}
+#vEmissions-btn:active{
+    background-color: hsl(239, 81%, 70%);
+}
+#fuelPrice-btn{
+    background-color: hsl(134, 57%, 28%);
+    color: white;
+}
+#fuelPrice-btn:hover{
+    background-color: hsl(138, 60%, 39%);
+}
+#fuelPrice-btn:active{
+    background-color: hsl(138, 37%, 53%);
+}
+#mpgRecord-btn{
+    background-color: hsl(54, 72%, 45%);
+    color: white;
+}
+#mpgRecord-btn:hover{
+    background-color: hsl(62, 50%, 60%);
+}
+#mpgRecord-btn:active{
+    background-color: hsl(66, 84%, 71%);
+}
